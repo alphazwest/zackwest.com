@@ -1,0 +1,118 @@
+@import "scss/bootstrap/functions";
+@import "scss/bootstrap/variables";
+@import "scss/bootstrap/mixins";
+@import "scss/bootstrap/vendor/rfs";
+
+
+// Initialize
+@import "scss/variables";
+@import "scss/mixins";
+
+// Core CSS
+@import "scss/reset";
+@import "scss/helpers";
+@import "scss/layouts";
+
+// Content Blocks
+@import "scss/header";
+@import "scss/elements";
+@import "scss/footer";
+@import "scss/extras";
+
+
+
+/////////////////////
+// Colors
+$color_gold: #ffc224;
+$color_black: #212529;
+
+
+// re-model the default bar to show elements
+#header{
+  .logo{
+    img{
+      width: 56px;
+      padding: 8px;
+    }
+  }
+
+  nav{
+    //font-family: monospace;
+    text-transform: lowercase;
+    ul{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+// handle the hamburger menu
+#mobileNavToggle{
+  background: transparent;
+  border: none;
+  display: flex;
+  // actually an svg
+  img{
+    width: 32px;
+  }
+}
+
+///////////////////////
+// Handles the mobile navigation menu that appears < md devices
+.mobile-nav {
+
+  // controls the visibility of the overlay element
+  visibility: hidden;
+  opacity: 0;
+  &.expanded{
+    visibility: visible;
+    opacity: 1.0;
+  }
+
+  // the exit button for the mobile menu
+  #mobile-x{
+    position: absolute;
+
+    color: white;
+    right: 64px;
+    top: 32px;
+    text-decoration: none;
+    font-size: 64px;
+
+  }
+
+  // General styling of elements
+  font-family: monospace;
+  height: 100vh;
+  z-index: 99999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: var(--alpha-header);
+  background: $color_black;
+  color: #ffffff;
+  width: 100%;
+  touch-action: none;
+  font-size: 2rem;
+  text-align: center;
+
+  // styling of menu items, social icons
+  .navbar-nav{
+    flex-direction: column;
+  }
+  .social-icons {
+    padding: 2rem;
+  }
+  li{
+    text-transform: lowercase;
+    a{
+      transition: all 300ms ease-in-out;
+      color: white;
+      &:hover{
+        transition: all 300ms ease-in-out;
+        color: $color_gold;
+      }
+    }
+  }
+}
