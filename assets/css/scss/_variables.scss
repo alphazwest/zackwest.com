@@ -1,13 +1,13 @@
 //-------------------- Fonts --------------------//
 
-$body-font: 'Open Sans', sans-serif;
-$title-font: 'monospace', sans-serif;
+$body-font: monospace;
+$title-font: monospace;
 
 //-------------------- Base Colors --------------------//
 
 
-$primary-color: #ffd324;
-$primary-color-hover: 		darken($primary-color, 7%);
+$primary-color: #ffc224;
+$primary-color-hover: 		darken($primary-color, 10%);
 $secondary-color: 			#939597;
 $body-bg:					#dddddd;
 

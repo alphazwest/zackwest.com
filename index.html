@@ -56,9 +56,9 @@
 
 <!-- Document Wrapper   
 =============================== -->
-<div id="main-wrapper"> 
+<div id="main-wrapper">
   
-  <!-- Header -->
+  <!-- header -->
   <header id="header" class="sticky-top">
 
     <!-- mobile nav overlay -->
@@ -72,6 +72,7 @@
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Projects</a></li>
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact Me</a></li>
         </ul>
 
@@ -97,6 +98,7 @@
         <ul class="navbar-nav d-none d-md-flex">
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact Me</a></li>
         </ul>
 
@@ -109,14 +111,12 @@
     <!-- Navbar End -->
 
   </header>
-  <!-- Header End --> 
+  <!-- end header -->
   
-  <!-- Content
-  ============================================= -->
-  <div id="content" role="main"> 
+  <!-- primary content -->
+  <main id="content" role="main">
     
-    <!-- Intro
-    ============================================= -->
+    <!-- hero section -->
     <section id="home" class="bg-primary d-flex fullscreen position-relative py-5">
       <div class="container my-auto py-4">
         <div class="row">
@@ -128,7 +128,7 @@
               <p>Engineer</p>
             </div>
             <h4 class="text-18 fw-600 text-uppercase mb-0 ms-n1"><span class="typed"></span></h4>
-            <a href="#resume" class="btn btn-dark rounded-0 smooth-scroll mt-3">Resume</a>
+            <a href="#resume" class="btn btn-dark rounded-6 smooth-scroll mt-3">Resume</a>
             <a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>
 		  </div>
           <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
@@ -139,19 +139,18 @@
         </div>
       </div>
       <a href="#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a> </section>
-    <!-- Intro end --> 
+    <!-- end hero -->
     
-    <!-- About
-    ============================================= -->
+    <!-- about -->
     <section id="about" class="section">
       <div class="container"> 
         <!-- Heading -->
-        <!-- <p class="text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">About Me</span></p>-->
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">A bit about me</h2>
+        <h2 class="text-12 fw-600 text-center underlined mb-5 wow fadeInUp">About Me</h2>
         <!-- Heading end-->
-        
         <div class="row">
-          <div class="col-lg-8 text-center text-lg-start wow fadeInUp">
+
+          <!-- paragraph -->
+          <div class="col-md-8 text-center text-lg-start wow fadeInUp">
             <h2 class="text-8 fw-400 mb-3">Hi, I'm <span class="fw-700 border-bottom border-3 border-primary">Zack West</span></h2>
             <p class="text-5">
               I'm a designer & developer with 8+ years experience developing small and medium-scale applications with a
@@ -161,44 +160,31 @@
               Java, C#, and JavaScript.
             </p>
           </div>
-          <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+
+          <!-- featured image -->
+          <div class="col-md-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
             <div class="featured-box style-4">
               <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s">8+</span></div>
               <h3 class="text-7 wow rubberBand" data-wow-delay="2s">Years of <span class="fw-700">Experience</span></h3>
             </div>
           </div>
+
         </div>
 
       </div>
     </section>
-    <!-- About end --> 
-
+    <!-- end about -->
     
-    <!-- Resume
-    ============================================= -->
+    <!-- resume -->
     <section id="resume" class="section bg-light">
-      <div class="container"> 
+      <div class="container">
+
         <!-- Heading -->
-        <p class=" text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">Resume</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Education & Work Experience</h2>
+        <h2 class="text-12 fw-600 text-center mb-5 underlined wow fadeInUp">Education & Work Experience</h2>
         <!-- Heading end-->
-        
+
+        <!-- main body -->
         <div class="row g-5 mt-5">
-
-
-          <!-- My Education -->
-          <div class="col-lg-6 wow fadeInUp">
-            <h2 class="text-7 fw-600 mb-4 pb-2">Education</h2>
-            <div class="border-start border-2 border-primary ps-3">
-              <h3 class="text-5">BSc Computer Science</h3>
-              <p class="mb-2">Western Carolina University, Cullowhee, NC</p>
-              <p class="text-muted">2018-2023</p>
-              <hr class="my-4">
-              <h3 class="text-5">BSc Graphic Communication</h3>
-              <p class="mb-2">North Carolina State University, Raleigh, NC</p>
-              <p class="text-muted">2005-2010</p>
-            </div>
-          </div>
 
           <!-- My Experience -->
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -211,6 +197,20 @@
               <h3 class="text-5">3D Designer</h3>
               <p class="mb-2">West Design Group, LLC / 2011 - 2016</p>
               <p class="text-muted">3D designer and visualization artist with a strong focus on furniture, interior design, and home goods.</p>
+            </div>
+          </div>
+
+          <!-- My Education -->
+          <div class="col-lg-6 wow fadeInUp">
+            <h2 class="text-7 fw-600 mb-4 pb-2">Education</h2>
+            <div class="border-start border-2 border-primary ps-3">
+              <h3 class="text-5">BSc Computer Science</h3>
+              <p class="mb-2">Western Carolina University, Cullowhee, NC</p>
+              <p class="text-muted">2018-2023</p>
+              <hr class="my-4">
+              <h3 class="text-5">BSc Graphic Communication</h3>
+              <p class="mb-2">North Carolina State University, Raleigh, NC</p>
+              <p class="text-muted">2005-2010</p>
             </div>
           </div>
         </div>
@@ -329,25 +329,117 @@
         </div>
 
           <p class="text-center mt-5 wow fadeInUp">
-            <a target="_blank" href="https://drive.google.com/file/d/1gUwoaT-0wdRjbHi9OoDZF2e97T3cEsu_/view?usp=share_link" class="btn btn-outline-dark shadow-none rounded-0">Download Resume</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1gUwoaT-0wdRjbHi9OoDZF2e97T3cEsu_/view?usp=share_link" class="btn btn-outline-dark shadow-none rounded-6">Download Resume</a>
           </p>
 
         </div>
 
       </div>
     </section>
+    <!-- end resume -->
 
-    <!-- Resume end --> 
-    
+    <!-- about -->
+    <section id="projects" class="section">
+      <div class="container">
+        <!-- Heading -->
+        <!-- <p class="text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">About Me</span></p>-->
+        <h2 class="text-12 fw-600 text-center mb-5 underlined wow fadeInUp">Projects</h2>
+        <!-- Heading end-->
 
-    
-    <!-- Contact Me
-    ============================================= -->
+        <!-- project entry vitaminer-->
+        <div class="row project-entry">
+
+          <!-- project image -->
+          <div class="col-md-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="featured-box style-4 project-img">
+              <img src="assets/img/vitaminer-splash.jpg" alt="vitaminer.xyz"/>
+            </div>
+          </div>
+
+          <!-- project details -->
+          <div class="col-md-8 text-center text-lg-start wow fadeInUp">
+            <h3 class="text-8 fw-800">Vitaminer</h3>
+            <div class="text-center text-lg-start wow fadeInUp">
+              <p class="text-5">
+                <a href="//vitaminer.xyz?ref=zackwest.com/#projects" target="_blank">Vitaminer</a> is a Django-based
+                application that that allows users to search multiple merchants for supplements returning a single results
+                page filtered by a user-customizable list of preferred brands.
+              </p>
+              <p class="text-3">
+                <strong>Tech Used:</strong> Django, Boostrap, AWS S3 + Secrets Manager, BeautifulSoup, Heroku App Platform, and CSS/HTML/JS
+              </p>
+            </div>
+          </div>
+
+          <span class="afterline wow fadeInUp" data-wow-delay="0.2s"></span>
+        </div>
+
+        <!-- project entry hoopty -->
+        <div class="row project-entry">
+
+          <!-- project image -->
+          <div class="col-md-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="featured-box style-4 project-img">
+              <img src="assets/img/hoopty-splash.jpg" alt="hoopty: the flappening"/>
+            </div>
+          </div>
+
+          <!-- project details -->
+          <div class="col-md-8 text-center text-lg-start wow fadeInUp">
+            <h3 class="text-8 fw-800">Hoopty: The Flappening</h3>
+            <div class="text-center text-lg-start wow fadeInUp">
+              <p class="text-5">
+                <a href="//play.google.com/store/apps/details?id=com.novomotus.HooptyTheFlappening" target="_blank">Hoopty</a>
+                is a mobile application built using Unity3D and programmed almost entirely using C#. It features gameplay menus,
+                high score keeping, and original sound, art, and gameplay design.
+              </p>
+              <p class="text-3">
+                <strong>Tech Used:</strong> Unity3D, C#, Adobe Photoshop, Audition, and Illustrator
+              </p>
+            </div>
+          </div>
+
+          <span class="afterline wow fadeInUp" data-wow-delay="0.2s"></span>
+
+        </div>
+
+        <!-- project entry alpharithms -->
+        <div class="row project-entry">
+
+          <!-- project image -->
+          <div class="col-md-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="featured-box style-4 project-img">
+              <img src="assets/img/alpharithms-splash.jpg" alt="alpharithms.com"/>
+            </div>
+          </div>
+
+          <!-- project details -->
+          <div class="col-md-8 text-center text-lg-start wow fadeInUp">
+            <h3 class="text-8 fw-800">αlpharithms</h3>
+            <div class="text-center text-lg-start wow fadeInUp">
+              <p class="text-5">
+                <a href="//www.alpharithms.com?ref=zackwest.com/#projects" target="_blank">αlpharithms</a> is a WordPress-based
+                web application developed to share guides, tutorials, and industry news related to software development & engineering.
+              </p>
+              <p class="text-3">
+                <strong>Tech Used:</strong> WordPress, Boostrap, PHP, HTML/SCSS/JS, & <i>lots</i> of Grammarly
+              </p>
+            </div>
+          </div>
+
+          <span class="afterline wow fadeInUp" data-wow-delay="0.2s"></span>
+        </div>
+
+      </div>
+    </section>
+    <!-- end about -->
+
+    <!-- contact -->
     <section id="contact" class="section bg-primary">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 text-center text-lg-start wow fadeInUp">
-            <h2 class="text-10 fw-600 mb-5">Connect</h2>
+            <h2 class="text-10 fw-600 underlined dark mb-5">Connect</h2>
             <p class="text-5 mb-5">
               I always enjoying discussing new projects and exciting problems.
               Use the contact form here to start a conversation without having
@@ -366,7 +458,7 @@
             </ul>
           </div>
           <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s">
-            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Contact</h2>
+            <h2 class="text-10 fw-600 text-center text-lg-start underlined dark mb-5">Contact</h2>
 
             <!-- Contact Form -->
             <form id="contact-form" target="_blank" class="form-border" action="https://formspree.io/f/xdovoagd" method="POST">
@@ -384,7 +476,7 @@
                   <textarea id="form-message" name="form-message" class="form-control py-1" rows="4" required ></textarea>
                 </div>
                 <div class="col-12 text-center text-lg-start">
-                  <button id="submit-btn" class="btn btn-dark rounded-0" type="submit">Send <span class="ms-3"><i class="fas fa-arrow-right"></i></span></button>
+                  <button id="submit-btn" class="btn btn-dark rounded-6" type="submit">Send <span class="ms-3"><i class="fas fa-arrow-right"></i></span></button>
                 </div>
               </div>
             </form>
@@ -395,13 +487,12 @@
         </div>
       </div>
     </section>
-    <!-- Contact Me end --> 
+    <!-- end contact -->
     
-  </div>
-  <!-- Content end --> 
+  </main>
+  <!-- end main content -->
   
-  <!-- Footer
-  ============================================= -->
+  <!-- footer -->
   <footer id="footer" class="section bg-dark text-white">
     <div class="container">
       <div class="row">
@@ -411,7 +502,7 @@
       </div>
     </div>
   </footer>
-  <!-- Footer end --> 
+  <!-- end footer -->
   
 </div>
 <!-- Document Wrapper end --> 

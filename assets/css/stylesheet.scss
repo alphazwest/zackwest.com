@@ -24,6 +24,7 @@
 /////////////////////
 // Colors
 $color_gold: #ffc224;
+$color_gold_hover: darken($color_gold, 10%);
 $color_black: #212529;
 
 
@@ -111,8 +112,72 @@ $color_black: #212529;
       color: white;
       &:hover{
         transition: all 300ms ease-in-out;
-        color: $color_gold;
+        color: $color_gold_hover;
       }
     }
+  }
+}
+
+/////////////////////////////////////////
+//// Projects section
+.project-entry{
+
+  .afterline{
+    margin: auto;
+    height: 1px;
+    background-color: #efefef;
+    width: 61.8%;
+  }
+  a{
+    text-decoration: none;
+    border-bottom: solid 2px $color_gold;
+    color: $color_gold;
+    transition: 350ms all ease-in-out;
+    &:hover{
+      transition: 350ms all ease-in-out;
+      border-bottom: solid 2px $color_gold_hover;
+      color: $color_gold_hover;
+    }
+  }
+  padding: 1rem;
+  .project-img{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    img{
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0px -5px 15px -3px rgba(0,0,0,0.1);
+    }
+  }
+}
+
+///////////////////////////
+//// Misc
+.underlined{
+  &.dark{
+    &:after{
+      content:"";
+      display:block;
+      width: 20rem;
+      max-width:70%;
+      border-bottom: 6px solid $color_black;
+      margin: 8px 0 0;
+    }
+  }
+  &:after{
+    content:"";
+    display:block;
+    width: 20rem;
+    max-width:70%;
+    border-bottom: 6px solid $color_gold;
+    margin: 8px auto 0;
+  }
+
+}
+
+.btn-dark{
+  &:hover{
+    background-color: lighten($color_black, 10%);
+    border-color:lighten($color_black, 10%);
   }
 }
