@@ -6,6 +6,13 @@ status = 301
 force = true
 
 [[redirects]]
+# top-of-mind
+from = "/slides/"
+to = "/slides/wcu/alumni/talk"
+status = 302
+force = true
+
+[[redirects]]
 # google slides from WCU Alumni Talk 11/1/2024
 from = "/slides/wcu-alumni-talk"
 to = "https://docs.google.com/presentation/d/19kJ8ZgMksoxMXDY-buOEmGS2s5_aVIf0Sj3oNi3b3gA/edit?usp=sharing"
