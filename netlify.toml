@@ -3,3 +3,9 @@ from = "/resume"
 to = "https://drive.google.com/file/d/1eMpzSjWdYqmP9XJIL7pC_oe13J5SHbzv/view?usp=sharing"
 status = 301
 force = true
+
+# google slides from WCU Alumni Talk 11/1/2024
+from = "/slides/wcu-alumni-talk"
+to = "https://docs.google.com/presentation/d/19kJ8ZgMksoxMXDY-buOEmGS2s5_aVIf0Sj3oNi3b3gA/edit?usp=sharing"
+status = 301
+force = true
