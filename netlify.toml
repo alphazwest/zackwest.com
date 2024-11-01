@@ -8,7 +8,7 @@ force = true
 [[redirects]]
 # top-of-mind
 from = "/slides/"
-to = "/slides/wcu/alumni/talk"
+to = "/slides/wcu-alumni-talk"
 status = 302
 force = true
 
